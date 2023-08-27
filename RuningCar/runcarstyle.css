@@ -23,7 +23,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-    animation: highway 5s linear infinite;
+    animation: highway 1s linear infinite;
 
 
 }
@@ -44,7 +44,7 @@
     display: block;
     z-index:   1;
     background-repeat: repeat-x;
-    animation: city 20s linear infinite;
+    animation: city 5s linear infinite;
 }
 @keyframes city{
     100%{
@@ -86,7 +86,7 @@
 .wheel img{
     width: 72px;
     height: 72px;
-    animation: wheel 1s linear infinite;
+    animation: wheel 0.1s linear infinite;
 }
 .back-wheel{
     left: -165px;
